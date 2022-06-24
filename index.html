@@ -5,16 +5,342 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://webgazer.cs.brown.edu/webgazer.js?" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/heatmap.js/2.0.0/heatmap.min.js" defer integrity="sha512-FpvmtV53P/z7yzv1TAIVH7PNz94EKXs5aV6ts/Zi+B/VeGU5Xwo6KIbwpTgKc0d4urD/BtkK50IC9785y68/AA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/heatmap.js/2.0.0/heatmap.min.js"
+      defer
+      integrity="sha512-FpvmtV53P/z7yzv1TAIVH7PNz94EKXs5aV6ts/Zi+B/VeGU5Xwo6KIbwpTgKc0d4urD/BtkK50IC9785y68/AA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js" defer></script>
     <title>Document</title>
-		<link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="heatmap">
-      <div class="demo-wrapper">
-        
-      </div>
+    <div class="demo-wrapper">
+      <div class="heatmap"></div>
     </div>
+
+    <img src="https://svgshare.com/i/hrp.svg" id="wave">
+    <section id='navbar'>
+    <nav class='navbar navbar-expand-lg justify-content-end' id='nav'>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id='menu-icon'>
+    <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class='nav-item'>
+        <a class="nav-link active" aria-current="page" href="#resume">About</a>
+      </li>
+      <li class='nav-item'>
+        <a class='nav-link' href="#projects">Portifolio</a>
+      </li>
+      <li class='nav-item'>
+        <a class='nav-link' href="#contact">Contact me</a>
+      </li>
+    </ul>
+    <div class="lang justify-content-center">
+      <ul class="navbar-nav">   
+      <li class='nav-item-lang'>
+       <a class='nav-link-lang' href="https://codepen.io/sdfadigas/pen/WNdVMQY"><img src="https://img.icons8.com/color/19/000000/brazil-circular.png" id="flag">BR</a>
+     </li>
+      <li class='nav-item-lang'>
+       <a class='nav-link-lang' href="https://codepen.io/sdfadigas/pen/YzeozJE"><img src="https://img.icons8.com/color/19/000000/usa-circular.png">EN</a>
+     </li>
+      </ul>
+        </div>
+      </div>    
+    </nav>
+      </section>
+    <section id="welcome-section" class="welcome-section">
+    <img src='https://svgshare.com/i/iVg.svg' id='logo' alt='portifolio-logo'>
+    <p class='text-center' id="resume">Hello, I'm a web development enthusiast!</p>
+    </section>
+    
+    <section class='resume'>
+          <div class="container" data-aos="fade-up">
+    <div class='row justify-content-md-center'>
+          <div class="col-lg-6">
+                 <p class='text-center resume-text'>Samara is a web development professional passionate about the universe of technology and its possibilities. A strong communicator, she worked for years in science communication in the non-profit sector, having built editing and communication skills in social media, as well as research and teaching skills. As a researcher, Samara developed skills in problem solving with creativity and organization, in addition to the practical use of data analysis and statistics, coupled with a strong ability in communication, interpersonal relationships and leadership.</p>             
+          </div>
+            </div>
+    <div class="row justify-content-md-center">
+      <div class="col-lg-6">
+          <h3 class="resume-title">Core skills</h3>
+          <ul class="text-center core">
+            <li>Creativity and excellent communication skills;</li>
+            <li>Skill with data analysis and statistical analysis software;</li>
+            <li>Strong leadership and problem solving skills;</li>
+            <li>Familiarity with web design and markup, styling and programming languages;</li>
+          </ul><br>
+    
+              <h3 class="resume-title">Experience</h3>
+              <div class="resume-item">
+                <h4>Sound editor</h4>
+                <h5>2021 - </h5>
+                <p>Sua Ciência Institute (Itajubá/MG/BRA)</p>
+                <ul>
+                  <li>As editor of a science communication podcast <a href='https://open.spotify.com/show/7CDknhulAQ3IxLqQty8MwE?si=2781226565ae4436'>Vê se POD</a>, I worked with the production and scripting team of the programs, editing audios and interviews carried out by the podcasters, using Adobe Audition and Audacity programs and the Anchor platform; </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Communication and pedagogical coordinator</h4>
+                <h5>2020-2021</h5>
+                <p>Movimento Água é Vida (Feira de Santana/BA/BRA)</p>
+                <ul>
+                  <li>As communication coordinator, I worked with a team of 4 professionals for the company's advertising in traditional and digital media and with management of the <a href='https://linktr.ee/MovimentoAguaEVida'>company's social media</a>. In this role, I also developed, with a team of 2 design professionals, the company's visual identity and all graphic productions for digital media, using the softwares Inkscape, Gimp, Adobe XD and Canva and Figma platforms;</li>
+                  <li>Still as communication coordinator, I was the head of the team of our environmental education podcast <a href='https://open.spotify.com/show/1vhIjp8hAxQMe7I8egNg4x?si=6f7f4b687fd343bc'>MAV em Ação</a>, being responsible for scripting and presenting 16 programs broadcast by local radio H1 and which were later edited and made available online on streaming platforms. To edit the programs, Adobe Audition and Audacity programs and Anchor platform were used;</li>
+                  <li>As a pedagogical coordinator, I worked with a team of 5 teachers organizing and delivering 2 courses and 6 lectures on environmental education aimed at companies and schools in face-to-face and remote format in Feira de Santana and its metropolitan region, which impacted around 250 people. Project management in teams was performed by Trello platform;</li>
+                  </ul>
+              </div>
+                <div class="resume-item">
+                <h4>Researcher</h4>
+                <h5>2017-2019</h5>
+                <p>Phycology Laboratory (Florianópolis/SC/BRA)</p>
+                <ul>
+                  <li>As a researcher in calcareous algae ecotoxicology, I worked with a team of researchers developing experimental models that simulated the behavior of algae when exposed to different concentrations of mud from Fundão dam rupture (Mariana/MG). With this job, I developed skills in time management and strategic planning, as well as skills in statistics and programming logic through use of Statistica, SPSS and R programs; </li>
+                  <li>I also got an Internship as a teacher in Fitobentos subject for students of the sixth semester of bachelor's degree in Oceanography at Federal University of Santa Catarina (30h);</li>
+            </div>
+                       <div class="resume-item">
+                <h4>Researcher</h4>
+                <h5>2011-2016</h5>
+                <p>Benthic Ecology Laboratory (Salvador/BA/BRA)</p>
+                <ul>
+                  <li>As a researcher in ecology of estuarine environments, I worked with a team of researchers in a qualiquantitative study of organisms of benthic meiofauna of Todos os Santos Bay estuaries. During this work, I used geoprocessing programs such as ArcGIS and Spring, statistical softwares such as Statisca and Microsoft Excel, and NetLogo modeling software;</li>
+               </div>
+    
+               <h3 class="resume-title">Education</h3>
+               <div class="resume-item">
+                 <h4>System development technician</h4>
+                 <h5>2022 -</h5>
+                 <p>SENAI (Feira de Santana/BA/BRA)</p>
+               </div>
+               <div class="resume-item">
+                 <h4>Master in Oceanography</h4>
+                 <h5>2017 - 2019</h5>
+                 <p>UFSC (Florianópolis/SC/BRA)</p>
+               </div>
+                 <div class="resume-item">
+                 <h4>Bachelor in Oceanography</h4>
+                 <h5>2010 - 2016</h5>
+                 <p>UFBA (Salvador/BA/BRA)</p>
+               </div>
+                 <div class="resume-item">
+                 <h4>Bachelor in Marine Sciences</h4>
+                 <h5>2013 - 2014</h5>
+                 <p>National University of Ireland (Galway/GA/IRE)</p>
+               </div>
+               <p class="h3 resume-title">Courses</p>
+               <div class="resume-item">
+                 <h4>JavaScript Algorithm and Data Structures Certification</h4>
+                 <h5>freeCodeCamp/300h</h5>
+               </div>
+                <div class="resume-item">
+                 <h4>Responsive Web Design Certification</h4>
+                 <h5>freeCodeCamp/300h</h5>
+               </div>
+                    <div class="resume-item">
+                 <h4>Introduction to Computer Science with Python part 1 and 2</h4>
+                 <h5>USP/70h</h5>
+               </div>
+                   <div class="resume-item">
+                 <h4>Tech Academy</h4>
+                 <h5>StartSe/100h</h5>
+               </div>
+               <div class="resume-item">
+                <h4>UX/UI Web</h4>
+                <h5>Cel.Lep - Estação Hack/32h</h5>
+              </div>
+    
+                         <h3 class="resume-title">Skills</h3>
+              <div class="resume-item">
+                      <h4>Computing</h4>
+                      <p>Microsoft office</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p>HTML/CSS3</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p>JavaScript</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                          <p>Figma</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p>Python</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                  
+        </div>
+                      <div class="resume-item" id="projects">
+                      <h4>Languages</h4>
+                      <p>Portuguese</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div></div>
+                      <p>English</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+                          <p>Spanish</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+          </div>
+    </div>
+        </div>
+    </section>
+    
+    <section class="projects-section">
+    <h3 class="projects-section-header">Some of my works</h3>
+    
+    <div class="projects-grid">
+      <a
+        href="https://codepen.io/sdfadigas/full/yLvzyQN"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://i.ibb.co/T1qZKnt/4.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Landing page - Dona Ana Pizzaria 
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/sdfadigas/full/MWQaKGb"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://i.ibb.co/QmKFPCL/5.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Landing page - PetMatch
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/sdfadigas/full/rNpEeyW"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://i.ibb.co/PDrYRxN/7.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Product landing page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/sdfadigas/full/RwxJeZq"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://i.ibb.co/2nkXw6V/6.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Template website cloning
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/sdfadigas/full/XWVGwyP"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://i.ibb.co/WgZ7Jj0/9.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Survey form
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/sdfadigas/full/gOoVGEq"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://i.ibb.co/SPkr0t9/8.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Technical Documentation Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+    </div>
+    
+    
+    </section>
+    <footer id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <p class='h6 text-muted'>developed by:</p>
+      <p class='h3'>Samara Dumont Fadigas</p>
+      <p class='h6'><em>web development enthusiast</em></p> 
+    </div>
+    <div class="contact-links border-top">
+      <a
+        href="https://codepen.io/sdfadigas"
+        target="_blank"
+        class="btn contact-details">
+      <i class="fa-brands fa-codepen"></i> Codepen</a>
+      <a
+        id="profile-link"
+        href="https://github.com/sdfadigas"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-github"></i> GitHub</a>
+      <a
+        href="https://twitter.com/oxesasa"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-twitter"></i> Twitter</a>
+      <a
+        href="https://instagram.com/samara.srd"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <a href="mailto:sdfadigas@gmail.com" class="btn contact-details" 
+        ><i class="fas fa-at"></i> Email</a>
+      <a href="https://wa.me/5548991077107" class="btn contact-details"
+        ><i class="fa-brands fa-whatsapp"></i> Write me</a>
+    </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
